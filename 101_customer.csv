@@ -1,0 +1,5 @@
+CustomerID,Name,Email,Phone,JoinDate,Country,IsActive
+1,John Doe,john.doe@example.com,555-1234,2023-01-15,USA,TRUE
+2,Jane Smith,jane.smith@example.com,555-5678,2023-03-22,Canada,FALSE
+3,Robert Brown,robert.brown@example.com,555-9012,2022-11-05,UK,TRUE
+4,Lisa White,lisa.white@example.com,555-3456,2023-06-10,Australia,TRUE
