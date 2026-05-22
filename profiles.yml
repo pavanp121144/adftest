@@ -1,0 +1,26 @@
+snowflake_profile:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: [ACCOUNT_ID]
+      user: [USERNAME]
+      password: [PASSWORD]
+      role: [ROLE]
+      database: [DATABASE]
+      schema: [SCHEMA]
+      threads: 4
+      client_session_keep_alive: False
+      
+    prod:
+      type: snowflake
+      account: [ACCOUNT_ID]
+      user: [USERNAME]
+      password: [PASSWORD]
+      role: [ROLE]
+      database: [DATABASE]
+      schema: [SCHEMA]
+      threads: 8
+      client_session_keep_alive: False
+
+# Note: Store sensitive credentials in ~/.dbt/profiles.yml or use environment variables
